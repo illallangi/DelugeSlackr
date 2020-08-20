@@ -22,9 +22,9 @@ setuptools.setup(
     entry_points={
         'console_scripts':
             [
-                'deluge-slackr=deluge_slackr:__main__.main',
-                'deluge-slackr-added=deluge_slackr:__main__.added',
-                'deluge-slackr-complete=deluge_slackr:__main__.complete'
+                'deluge-slackr=deluge_slackr.__main__:main',
+                'deluge-slackr-added=deluge_slackr.__main__:added',
+                'deluge-slackr-complete=deluge_slackr.__main__:complete'
             ]
     },
     install_requires=[
